@@ -33,12 +33,20 @@
             "label": "app"
           },
           {
+            "value": "internal",
+            "label": "internal"
+          },
+          {
             "value": "shared",
             "label": "shared"
+          },
+          {
+            "value": "video-games",
+            "label": "video-games"
           }
         ]
       },
-      "enums": ["api", "movies", "app", "shared"]
+      "enums": ["api", "movies", "app", "internal", "shared", "video-games"]
     }
   },
   "required": ["name"]
